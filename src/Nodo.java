@@ -1,6 +1,6 @@
 public class Nodo {
     // atributos
-    private int dato;
+    int dato;
     Nodo siguiente;
     Nodo anterior;
 
