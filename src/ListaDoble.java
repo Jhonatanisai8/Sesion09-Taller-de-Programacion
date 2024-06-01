@@ -36,4 +36,17 @@ public class ListaDoble {
         }
         return suma;
     }
+
+    public int sumaAtras(Nodo fin) {
+        Nodo aux = fin;
+        int suma = 0;
+        // recorremos la lista
+        while (aux != null) {
+            // sumamos los datos
+            suma = suma + aux.dato;
+            // retrocedemos la lista
+            aux = aux.siguiente;
+        }
+        return suma;
+    }
 }
