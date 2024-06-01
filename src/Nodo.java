@@ -1,8 +1,8 @@
 public class Nodo {
     // atributos
     private int dato;
-    private Nodo siguiente;
-    private Nodo anterior;
+    Nodo siguiente;
+    Nodo anterior;
 
     // constructor
     public Nodo(int elemento) {
